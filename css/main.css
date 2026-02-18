@@ -1,0 +1,59 @@
+/* Inheritance: Target the body tag to change font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Select multiple elements: header and footer with the same background colour */
+header, footer {
+    background-color: #b91111;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Class selector: site-title class to change text colour of the main heading */
+.site-title {
+    color: #961ed3;
+}
+
+/* Id selector: my-image id to add a box-shadow */
+#my-image {
+    box-shadow: 0 0px 2px 1px rgb(174, 17, 135);
+}
+
+/* Replace the bullets from the list of hobbies with squares */
+main ul {
+    list-style-type: square;
+}
+
+/* Using the nth-child selector: add a background to the odd list items in the hobby list */
+main ul li:nth-child(odd) {
+    background-color: #28d4ba; 
+   
+}
+
+/* Styling the Navigation */
+
+/* Remove the bullets from the unordered list in navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Remove the underline from the links and add a background/border */
+nav ul li a {
+    text-decoration: none;
+    background-color: #c5c81a;
+    color: rgb(159, 52, 52);
+    padding: 8px 15px;
+    border: 1px solid #233495;
+    display: inline-block; 
+}
+
+/* Change the background colour on hover or focus state of the links */
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #bf1f47; 
+}
+
