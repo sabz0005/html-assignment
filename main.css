@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #333; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.site-title {
+    color: #4CAF50; 
+}
+
+
+#my-image {
+    box-shadow: 0 0px 2px 1px black;
+}
+
+
+main ul {
+    list-style-type: square;
+}
+
+
+main ul li:nth-child(odd) {
+    background-color: #f2f2f2; 
+    padding: 5px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid #333;
+    display: inline-block; 
+}
+
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #555;
+}
